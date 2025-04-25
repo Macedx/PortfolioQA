@@ -17,6 +17,12 @@ O **teste unitário** é um tipo de teste de software que verifica se **uma pequ
 
 A ideia é **testar cada “peça” do sistema separadamente**, para garantir que ela funciona como esperado antes de integrar tudo.
 
+Um **teste unitário** verifica se **uma parte pequena e isolada do código** (como uma função ou método) está funcionando corretamente. Ele:
+
+- Recebe uma entrada
+- Executa a função
+- Verifica se a saída está certa
+
 ---
 
 ## 🎯 Objetivo dos Testes Unitários
