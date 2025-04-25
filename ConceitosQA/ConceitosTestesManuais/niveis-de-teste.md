@@ -41,7 +41,7 @@ A ideia é **testar cada “peça” do sistema separadamente**, para garantir q
 ### Código da função que será testada:
 
 ```python
-def soma(a.b):
+def soma(a,b):
 	return a+b
 	
 ```
