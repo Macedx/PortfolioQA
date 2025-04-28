@@ -50,8 +50,7 @@ Um **teste unitário** verifica se **uma parte pequena e isolada do código** (c
 
 ```python
 def soma(a,b):
-	return a+b
-	
+	return a+b	
 ```
 
 **Função simples:**  Recebe dois valores e retorna a soma.
@@ -75,7 +74,7 @@ class TestSoma(unitteste.TestCase):
 		self.assertEqual(soma(2, 3), 5)
 		#Compara o resultado da função soma(2, 3) com o valor esperado 5.
 		
-	def teste_soma_negativos(self)
+	def test_soma_negativos(self)
 	#Define outro caso de teste para números negativos.
 	
 		self.assertEqual(soma(-1, -1), -2)
