@@ -11,7 +11,9 @@ Esses níveis ajudam a identificar falhas cedo, garantir estabilidade e aumentar
 
 ---
 
-# O Que é Teste Unitário
+# ✅ Teste Unitário
+
+## 📖 O Que é Teste Unitário?
 
 O **teste unitário** é um tipo de teste de software que verifica se **uma pequena parte isolada do código** (geralmente uma **função ou método**) está funcionando corretamente.
 
@@ -37,8 +39,8 @@ Um **teste unitário** verifica se **uma parte pequena e isolada do código** (c
 ## ✅ Onde são usados?
 
 - Em testes **automatizados**
-- Durante o desenvolvimento (frequentemente aplicados com TDD)
-- Principalmente por **desenvolvedores**, mas também em automações QA
+- Durante o desenvolvimento (frequentemente aplicados com TDD (Test-Driven Development — Desenvolvimento Guiado por Teste, uma prática de desenvolvimento onde os testes unitários são escritos antes mesmo do código funcional)).
+- Principalmente por **desenvolvedores**, mas também em automações QA.
 
 ---
 
@@ -98,7 +100,9 @@ Ao executar esse script, o terminal irá mostrar:
 
 ---
 
-# O que é Teste de Integração?
+# ✅ Teste de Integração
+
+## 📖 O que é Teste de Integração?
 
 O **teste de integração** é o tipo de teste que verifica se **diferentes partes do sistema trabalham bem juntas.** Enquanto o teste unitário foca em **funções isoladas,** o de integração garante que a **comunicação entre módulos, serviços, API’s ou banco de dados** funcione coretamente.
 
@@ -144,3 +148,97 @@ O teste de integração verifica se:
 - **Valida dependências externas** (como APIs e banco de dados)
 
 ---
+
+# ✅ Teste de Sistema
+
+## 📖 O que é?
+
+O **teste de sistema** é o tipo de teste que verifica se o **sistema completo** funciona corretamente, de ponta a ponta, conforme os requisitos definidos.
+
+Ele simula a interação **real do usuário final** com todas as partes da aplicação.
+
+---
+
+## 🎯 Objetivo
+
+Garantir que:
+
+- Todas as funcionalidades funcionem **em conjunto**.
+- O sistema **atenda às regras de negócio**.
+- A experiência do usuário esteja **fluida e consistente**.
+
+---
+
+## 🔍 Exemplo prático
+
+Imagine um sistema de e-commerce. Um teste de sistema validaria todo o fluxo:
+
+1. Abrir o site
+2. Pesquisar um produto
+3. Adicionar ao carrinho
+4. Finalizar a compra
+5. Confirmar o pedido
+
+➔ O teste verificaria **cada etapa**, desde a interface até o banco de dados e APIs, tudo integrado.
+
+---
+
+## 📌 Características dos Testes de Sistema
+
+- Testam a **aplicação completa**.
+- Validação de **interfaces**, **banco de dados**, **APIs**, **regras de negócio**.
+- Podem ser **manuais** ou **automatizados**.
+- Geralmente realizados **após** os testes unitários e de integração.
+
+---
+
+# ✅ Teste de Aceitação
+
+## 📖 O que é Teste de Aceitação?
+
+O **teste de aceitação** é um tipo de teste que verifica se o sistema **atende às expectativas e requisitos** definidos pelo cliente ou usuário final.
+
+Geralmente é realizado no **final do ciclo de desenvolvimento**, sendo a **última validação antes da entrega oficial** do software.
+
+---
+
+## 🎯 Objetivos dos Testes de Aceitação
+
+Garantir que o sistema:
+
+- Está **pronto para ser entregue**
+- **Atende às regras de negócio** acordadas
+- Funciona de acordo com os **requisitos e critérios de aceitação** definidos
+
+---
+
+## 🔍 Exemplo prático
+
+Se o sistema de uma loja virtual prometeu:
+
+- Permitir **cadastro de usuário**
+- Permitir **adição de produtos ao carrinho**
+- Permitir **pagamento com cartão de crédito**
+
+➔ O teste de aceitação irá **simular todo esse fluxo**, confirmando que todas essas funcionalidades realmente funcionam como combinado.
+
+---
+
+## 📊 Diferença entre tipos de teste
+
+| 🧪 Tipo de Teste | 🔥 Foco | 👤 Quem executa? |
+| --- | --- | --- |
+| Unitário | Funções isoladas | Devs |
+| Integração | Comunicação entre módulos | Devs/QA |
+| Sistema | Funcionamento do sistema completo | QA |
+| Aceitação | Confirmação pelo ponto de vista do cliente | Cliente / PO / PM / QA |
+
+---
+
+> 📝 **Em resumo:**
+> 
+> 
+> **Teste de aceitação = “**O sistema está pronto para o cliente?”
+> 
+> → Foco total no **valor entregue, não apenas no funcionamento interno.**
+>
