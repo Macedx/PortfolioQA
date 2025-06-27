@@ -8,7 +8,7 @@ Aqui você encontra registros dos meus estudos, projetos profissionais e pessoai
 
 ## 📂 Estrutura
 - **LojasTorra/** — Projetos e testes realizados durante minha experiência como Jovem Aprendiz na área de Arquitetura e Integração na Lojas Torra.
-- **ConceitosQA/** — Conceitos de QA, testes manuais e futuros testes automatizados.
+- **ConceitosQA/** — Conceitos de QA, testes manuais e testes automatizados.
 
 ## 🚀 Tecnologias que estou estudando
 - Cypress
